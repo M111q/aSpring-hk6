@@ -22,7 +22,7 @@ public class MovieService {
         return movieList;
     }
 
-    @MailAspect
+    @SendEmailAspect
     public boolean addMovieToList(Movie movie) {
         return movieList.add(movie);
     }
