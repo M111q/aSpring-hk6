@@ -3,9 +3,7 @@ package com.github.m111q.homework6.api;
 import com.github.m111q.homework6.model.Movie;
 import com.github.m111q.homework6.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

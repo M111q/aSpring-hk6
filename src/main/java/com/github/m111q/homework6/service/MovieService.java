@@ -1,5 +1,6 @@
 package com.github.m111q.homework6.service;
 
+import com.github.m111q.homework6.aspect.SendEmailAspect;
 import com.github.m111q.homework6.model.Movie;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +23,7 @@ public class MovieService {
         return movieList;
     }
 
-    @SendEmailAspect
+    @SendEmailAspect()
     public boolean addMovieToList(Movie movie) {
         return movieList.add(movie);
     }
